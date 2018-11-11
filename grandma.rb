@@ -5,11 +5,11 @@ def speak_to_grandma(phrase = "I love you GRANDMA")
   elsif phrase == phrase.downcase
     return "HUH?! SPEAK UP, SONNY!"
   elsif phrase == phrase.capitalize
-    return "NO, NOT SINCE 1938!"
+    return "HUH?! SPEAK UP, SONNY!"
   elsif phrase == phrase.reverse
     return "NO, NOT SINCE 1938!"
   else
-    return "HUH?! SPEAK UP, SONNY!"
+    return ""
   end
 end
 
